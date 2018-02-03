@@ -1,0 +1,26 @@
+{
+  "name": "automated-chrome-performance",
+  "version": "0.0.2",
+  "description": "automated-chrome-performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldllidonglin/automated-chrome-performance.git"
+  },
+  "keywords": [
+    "performance",
+    "chrome"
+  ],
+  "author": "ldllidonglin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldllidonglin/automated-chrome-performance/issues"
+  },
+  "homepage": "https://github.com/ldllidonglin/automated-chrome-performance#readme",
+  "dependencies": {
+    "puppeteer": "^1.0.0"
+  }
+}
