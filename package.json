@@ -1,6 +1,6 @@
 {
   "name": "automated-chrome-performance",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "automated-chrome-performance",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/ldllidonglin/automated-chrome-performance#readme",
   "dependencies": {
     "puppeteer": "^1.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }

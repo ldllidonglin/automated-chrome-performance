@@ -2,10 +2,11 @@ const puppeteer = require('puppeteer')
 module.exports = async function getPerformance(options) {
   const default_options = {
     url: '',
-    count: 100
+    count: 100,
+    headless: true
   }
   options = Object.assign({}, default_options, options)
-  const browser = await puppeteer.launch({headless: false})
+  const browser = await puppeteer.launch({headless: options.headless})
   let results = []
   for (var i = 0; i < options.count + 1; i++) {
     const page = await browser.newPage()

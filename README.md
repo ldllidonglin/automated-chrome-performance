@@ -20,3 +20,5 @@ const test2 = 'https://www.taobao.com';
   + 页面url地址
 * count
   + 执行次数，默认执行100次
+* headless
+  + 是否开启headless，默认true
